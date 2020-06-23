@@ -1,0 +1,15 @@
+
+#F90=gfortran
+#PATHLIB=/home/Documents/
+
+all: lib install clean
+
+lib: 
+	gfortran -c *.F
+	ar rcs libminuit.a *.o
+
+install:
+	mv libminuit.a ..
+
+clean:
+	rm *.o
