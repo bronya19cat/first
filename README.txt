@@ -1,4 +1,5 @@
 minuit->fitting,
 ct10.for->parton function,
 dcu & dga->integral,
-vscode->fortran & mingw config,
+.vscode(2)->fortran(mingw) config,
+ex->example,
