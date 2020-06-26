@@ -6,12 +6,8 @@
     "args": [
         "-g",
         "${file}",
-        "${workspaceRoot}/libminuit.a",
+        //"${workspaceRoot}/libminuitw.a",
         "-o",
         "${fileBasenameNoExtension}.o"
-    ],
-    "group": {
-        "kind": "build",
-        "isDefault": true
-    }
+    ]
 }
