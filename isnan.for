@@ -1,4 +1,3 @@
-
       PROGRAM MAIN
         IMPLICIT DOUBLE PRECISION(A-H,O-Z)
         I=0
